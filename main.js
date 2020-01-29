@@ -1,6 +1,6 @@
 var errorz = false;
-var xzpnj = prompt('service');
-switch(xzpnj){
+//var xzpnj = prompt('service');
+switch(prompt('service')){
   case:'calculator'
     var hi=document.createElement('iframe');
     hi.src="https://www.desmos.com/scientific";
