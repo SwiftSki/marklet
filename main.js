@@ -1,7 +1,7 @@
 var errorz = false;
 //var xzpnj = prompt('service');
 switch(prompt('service')){
-  case:'calculator'
+  case 'calculator':
     var hi=document.createElement('iframe');
     hi.src="https://www.desmos.com/scientific";
     hi.style.background='blue';
@@ -12,7 +12,7 @@ switch(prompt('service')){
     hi.style.left='70%';hi.id='hi';
     document.body.appendChild(hi);
   break;
-  case: 'graphing calculator'
+  case 'graphing calculator':
     var hi=document.createElement('iframe');
     hi.src="https://www.desmos.com/calculator";
     hi.style.background='blue';
@@ -23,13 +23,13 @@ switch(prompt('service')){
     hi.style.left='50%';
     document.body.appendChild(hi);
   break;
-  case: 'remove iframes'
+  case 'remove iframes':
     var x = document.createElement('script');
     x.src = 'https://code.jquery.com/jquery-3.4.1.js';
     document.body.appendChild(x);
     $('iframe').remove();
   break;
-  case: 'seterra'
+  case 'seterra':
     var a=document.createElement('iframe');
     a.style.width='35%';
     a.style.height='35%';
@@ -39,11 +39,11 @@ switch(prompt('service')){
     a.src="https://online.seterra.com/en/vgp/3035";
     document.body.appendChild(a);
   break;
-  case: 'drednot'
+  case 'drednot':
      var mywindow = window.open("", "MsgWindow", "width=1000,height=1000");
      mywindow.document.write("<head><style>iframe{width=100%;height=100%;border:none;}</style></head><body><iframe src='https://drednot.io'></iframe></body>");  
   break;
-  case: 'flexible'
+  case 'flexible':
     javascript:var url=prompt('insert url','https://'); 
     var mywindow = window.open(url, "MsgWindow", "width=1000,height=1000");
      mywindow.document.write("<head><style>iframe{width=100%;height=100%;border:none;}</style></head><body><iframe src='https://drednot.io'></iframe></body>");  
