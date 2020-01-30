@@ -41,7 +41,7 @@ switch(prompt('service')){
   break;
   case 'drednot':
      var mywindow = window.open("", "MsgWindow", "width=1000,height=1000");
-     mywindow.document.write("<head><style>iframe{width=100%;height=100%;border:none;}</style></head><body><iframe src='https://drednot.io'></iframe></body>");  
+     mywindow.document.write("<body><iframe src='https://drednot.io' width='100%' height='100%'></iframe></body>");  
   break;
   case 'flexible':
     javascript:var url=prompt('insert url','https://'); 
