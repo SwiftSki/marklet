@@ -48,13 +48,16 @@ switch(prompt('service')){
     var mywindow = window.open(url, "MsgWindow", "width=1000,height=1000");
      mywindow.document.write("<head><style>iframe{width=100%;height=100%;border:none;}</style></head><body><iframe src='https://drednot.io'></iframe></body>");  
   break;
+  case 'n-gon':
+    var mywindow = window.open("https://landgreen.github.io/sidescroller/index.html", "MsgWindow", "width=1000,height=1000");
+  break;
 
   default:
     var invalidx = confirm('you put in an invalid command\nwould you like to see the documentation?');
     if(invalidx === true){
       alert('this is the documentation\npres ok to continue');
       //insert all commands here, and write a detailed documemtation
-      alert('calculator\ngraphing calculator\nremove iframes\nseterra\ndrednot\nflexible');
+      alert('calculator\ngraphing calculator\nremove iframes\nseterra\ndrednot\nflexible\nn-gon');
       var invalidxp2 = prompt('what would you like to learn more about?');
 
       if(invalidxp2 === 'calculator'){
@@ -74,6 +77,9 @@ switch(prompt('service')){
       }
       if(invalidxp2 === 'flexible'){
         alert('opens a new window, depending on what you put into the input. \nREMEMBER TO ADD AN https:// OR http://');
+      }
+      if(invalidxp2 === 'n-gon'){
+        alert('opens a new window with n-gon');
       }
     }
   break;
