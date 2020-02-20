@@ -29,16 +29,6 @@ switch(prompt('service')){
     document.body.appendChild(x);
     $('iframe').remove();
   break;
-  case 'seterra':
-    var a=document.createElement('iframe');
-    a.style.width='35%';
-    a.style.height='35%';
-    a.style.top='65%';
-    a.style.left='65%';
-    a.style.position='fixed';
-    a.src="https://online.seterra.com/en/vgp/3035";
-    document.body.appendChild(a);
-  break;
   case 'drednot':
      var mywindow = window.open("", "MsgWindow", "width=1000,height=1000");
      mywindow.document.write("<body><iframe src='https://drednot.io' width='100%' height='100%'></iframe></body>");  
@@ -46,6 +36,10 @@ switch(prompt('service')){
   case 'flexible':
     javascript:var url=prompt('insert url','https://'); 
     var mywindow = window.open(url, "MsgWindow", "width=1000,height=1000");  
+  break;
+  case 'flex2':
+    //window.open
+    //window.write(url);
   break;
   case 'n-gon':
     var mywindow = window.open("https://landgreen.github.io/sidescroller/index.html", "MsgWindow", "width=1000,height=1000");
@@ -60,7 +54,7 @@ switch(prompt('service')){
     if(invalidx === true){
       alert('this is the documentation\npres ok to continue');
       //insert all commands here, and write a detailed documemtation
-      alert('calculator\ngraphing calculator\nremove iframes\nseterra\ndrednot\nflexible\nn-gon');
+      alert('calculator\ngraphing calculator\nremove iframes\ndrednot\nflexible\nn-gon');
       var invalidxp2 = prompt('what would you like to learn more about?');
 
       if(invalidxp2 === 'calculator'){
@@ -71,9 +65,6 @@ switch(prompt('service')){
       }
       if(invalidxp2 === 'remove iframes'){
         alert('removes all iframes, which will remove everything this script adds, as well as whatever the page that you are on adds as iframes');
-      }
-      if(invalidxp2 === 'seterra'){
-        alert('adds a small seterra page to the bottom right of yours');
       }
       if(invalidxp2 === 'drednot'){
         alert('opens a new window with drednot');
