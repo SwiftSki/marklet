@@ -1,5 +1,4 @@
 var errorz = false;
-//var xzpnj = prompt('service');
 switch(prompt('service')){
   case 'calculator':
     var hi=document.createElement('iframe');
@@ -55,7 +54,7 @@ switch(prompt('service')){
     if(invalidx === true){
       alert('this is the documentation\npres ok to continue');
       //insert all commands here, and write a detailed documemtation
-      alert('calculator\ngraphing calculator\nremove iframes\ndrednot\nflexible\nn-gon');
+      alert('calculator\ngraphing calculator\nremove iframes\ndrednot\nflexible\nn-gon\nflex2');
       var invalidxp2 = prompt('what would you like to learn more about?');
 
       if(invalidxp2 === 'calculator'){
@@ -75,6 +74,9 @@ switch(prompt('service')){
       }
       if(invalidxp2 === 'n-gon'){
         alert('opens a new window with n-gon');
+      }
+      if(invalidxp2 === 'flex2'){
+        alert('with selected url[BROKEN]');
       }
     }
   break;
