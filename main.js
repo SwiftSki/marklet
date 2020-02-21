@@ -34,12 +34,13 @@ switch(prompt('service')){
      mywindow.document.write("<body><iframe src='https://drednot.io' width='100%' height='100%'></iframe></body>");  
   break;
   case 'flexible':
-    javascript:var url=prompt('insert url','https://'); 
+    var url=prompt('insert url','https://'); 
     var mywindow = window.open(url, "MsgWindow", "width=1000,height=1000");  
   break;
   case 'flex2':
-    //window.open
-    //window.write(url);
+    var url=prompt('insert url','https://'); 
+    var mywindow = window.open('', "MsgWindow", "width=1000,height=1000"); 
+    mywindow.document.write('<style>iframe{width:100%; height:100%; top:0px; left:0px;}</style><iframe src="'+ url +'"></iframe');
   break;
   case 'n-gon':
     var mywindow = window.open("https://landgreen.github.io/sidescroller/index.html", "MsgWindow", "width=1000,height=1000");
