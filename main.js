@@ -1,4 +1,5 @@
 var errorz = false;
+alert('hi');
 switch(prompt('service')){
   case 'calculator':
     var hi=document.createElement('iframe');
