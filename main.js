@@ -2,7 +2,7 @@ var userId = {
   1 : "Ian Swift",
   2 : "tester",
   69 : "Josh Duran",
-  420 : "Chris Shcembri",
+  420 : "Chris Schembri",
   4602 : "Kellen Bernstein",
   8068 : "Ean Nickols"
 };
@@ -12,7 +12,7 @@ if (n > 0) {
   if (n > 1) {
     var errorz = confirm('by clicking ok, you are responsible for any and all trouble you get yourself into by using this script. \nyou also agree not to say my name in any case of trouble in relation to use of my bookmark');
     if (errorz === true) {
-      alert('hello, ' + userId[n]);
+      alert('hello, ' + name);
       var feature = document.createElement('script');
       feature.src = "https://gitcdn.xyz/repo/SwiftSki/marklet/master/features.js";
       document.body.appendChild(feature);
