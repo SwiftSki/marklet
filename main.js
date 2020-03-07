@@ -6,8 +6,7 @@ var userId = {
   4602 : "Kellen Bernstein",
   8068 : "Ean Nickols"
 };
-var name = userId[n].split(" ");
-var name2 = name[0];
+var name = userId[n].split(" ").pop();
 //alert(name2);
 if (n > 0) {
   if (n > 1) {
