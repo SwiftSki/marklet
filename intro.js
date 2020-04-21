@@ -17,7 +17,7 @@ if (n > 0) {
     if (errorz === true) {
       alert('hello, ' + name);
       var feature = document.createElement('script');
-      feature.src = "https://bookmarklet.swiftski.repl.co/features.js";
+      feature.src = "https://swiftski.github.io/marklet/features.js";
       document.body.appendChild(feature);
     }
     else {
@@ -28,17 +28,17 @@ if (n > 0) {
     if (pw === 1786234) {
       alert('hello, ' + name)
       var feature = document.createElement('script');
-      feature.src = "https://bookmarklet.swiftski.repl.co/experimental.js";
+      feature.src = "https://swiftski.github.io/marklet/experimental.js";
       document.body.appendChild(feature);
     }
     else {
       alert('something went wrong\nsecurity activating');
       var feature = document.createElement('script');
-      feature.src = "https://bookmarklet.swiftski.repl.co/security.js";
+      feature.src = "https://swiftski.github.io/marklet/security.js";
       document.body.appendChild(feature);
     }
   }
 }
 else {
-  alert('please access with the bookmark');
+  alert('please access with the bookmark\nif you are accessing with the bookmark, then contact me for a new one');
 }
