@@ -2,26 +2,10 @@
 function feat() {
   switch (prompt('service')) {
     case 'calculator':
-      var hi = document.createElement('iframe');
-      hi.src = "https://www.desmos.com/scientific";
-      hi.style.background = 'blue';
-      hi.style.position = 'fixed';
-      hi.style.width = '30%';
-      hi.style.height = '50%';
-      hi.style.top = '40%';
-      hi.style.left = '70%'; hi.id = 'hi';
-      document.body.appendChild(hi);
+      document.body.appendChild(document.createElement('script').src="https://swiftski.github.io/marklet/large-apps/calculator.js");
       break;
     case 'graphing calculator':
-      var hi = document.createElement('iframe');
-      hi.src = "https://www.desmos.com/calculator";
-      hi.style.background = 'blue';
-      hi.style.position = 'fixed';
-      hi.style.width = '50%';
-      hi.style.height = '50%';
-      hi.style.top = '40%';
-      hi.style.left = '50%';
-      document.body.appendChild(hi);
+      document.body.appendChild(document.createElement('script').src="https://swiftski.github.io/marklet/large-apps/graphing-calculator.js");
       break;
     case 'remove iframes':
       var x = document.createElement('script');
